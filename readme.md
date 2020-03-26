@@ -23,10 +23,10 @@ npm i --save crypt-node
 const Crypt = require('crypt-node');
 const crypt = new Crypt();
 
-let sample = "encrypt this string"
+let sample = "encrypt this string";
 
-let encrypted = crypt.encrypt(sample)
-console.log(encrypted)
+let encrypted = crypt.encrypt(sample);
+console.log(encrypted);
 /* 
 { iv: '38f2e0d02ad4fa9a2f862ee639f50427',
   key:
@@ -38,7 +38,7 @@ console.log(encrypted)
 let decrypted = crypt.decrypt(encrypted.encryptedData, 
                             encrypted.key, 
                             encrypted.iv);
-console.log(decrypted)
+console.log(decrypted);
 /*
 encrypt this string
 */
