@@ -1,5 +1,5 @@
 {
-  "name": "crypt-node",
+  "name": "cryptjs",
   "version": "1.0.0",
   "description": "node module to encrypt and decrypt strings",
   "main": "index.js",
