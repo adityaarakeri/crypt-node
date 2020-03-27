@@ -12,6 +12,7 @@ A node wrapper around the native crypto module which uses the below capabilities
 - **decrypt** method
 
 
+
 #### 🗝 Installation
 ```sh
 npm i --save krypter
