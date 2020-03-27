@@ -1,7 +1,7 @@
 ```sh
- +-+-+-+-+-+-+-+-+
- |c|r|y|p|t|-|j|s|
- +-+-+-+-+-+-+-+-+
+ +-+-+-+-+-+-+-+
+ |k|r|y|p|t|e|r|
+ +-+-+-+-+-+-+-+
 ```
 
 A node wrapper around the native crypto module which uses the below capabilities
@@ -14,13 +14,13 @@ A node wrapper around the native crypto module which uses the below capabilities
 
 #### 🗝 Installation
 ```sh
-npm i --save cryptjs
+npm i --save krypter
 ```
 
 
 #### 🗝 Example Usage
 ```js
-const Crypt = require('cryptjs');
+const Crypt = require('krypter');
 const crypt = new Crypt();
 
 let sample = "encrypt this string";
