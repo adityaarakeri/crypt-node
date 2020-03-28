@@ -1,12 +1,14 @@
 {
   "name": "krypter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node module to encrypt and decrypt strings",
   "main": "index.js",
   "scripts": {
     "test": "ava --verbose",
     "prepublish": "npm run test"
   },
+  "homepage": "https://github.com/adityaarakeri/krypter#readme",
+  "repository": "https://github.com/adityaarakeri/krypter",
   "keywords": [
     "crypto",
     "encrypt",
